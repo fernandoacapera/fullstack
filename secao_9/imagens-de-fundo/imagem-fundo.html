@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        .caixa{
+            width: 700px;
+            height: 300px;
+            border: 3px dotted red;
+            background-image: url('imagens-necessarias/fundo-css-escuro.png');
+
+            /*
+            repeat -> é repetida horizontal e vertical
+            repeat-x -> é repetida na horizontal
+            repeat-y -> é repetida na vertical
+            no-repeat -> imagem é exibida apenas uma vez
+            */
+            background-repeat: no-repeat;
+
+            /*
+            fixed -> a imagem de fundo permanece na mesma posição na página
+            scrool -> a imagem de fundo move-se com o conteudo quando o usuario rola a página
+            */
+            background-attachment: scroll;
+
+            /*
+            Quando a imagem não é repetida, você pode posicionar a imagem horizontal: left, center, right
+            vertical: top, center, bottom
+            * Necessário escolher doi valores, senão será utilizado center como segundo valor 
+            background-position: center;
+            background-position-x: right;
+            background-position-y: bottom;
+            */
+
+            /*
+            Todas as propriedades resumidas
+            ordem: cor, imagem, repeat, attachment, position
+            */
+            background: red
+            url('/imagens-de-fundo/imagens-necessarias/fundo-css-claro.png')
+            no-repeat
+            fixed
+            left top;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa">
+        <h1>Titulo do texto</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aut eveniet pariatur repellat tempora ducimus eaque sapiente quisquam saepe quis, modi vitae atque culpa recusandae architecto distinctio totam ipsa dolore.</p>
+    </div>
+</body>
+</html>

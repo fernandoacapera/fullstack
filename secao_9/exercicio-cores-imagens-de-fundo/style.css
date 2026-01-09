@@ -1,0 +1,16 @@
+body{
+    background-image: url('/imagens-de-fundo/imagens-necessarias/fundo-site.png');
+}
+h1{
+    font-size: 3em;
+}
+.main{
+    background: #d9d7b6 url('/imagens-de-fundo/imagens-necessarias/fundo-h1.png') repeat-x ;
+    padding:0.5em 1em;
+    h2{
+        color: #827f65;
+        text-indent: 5px;
+
+        
+    }
+}
