@@ -55,4 +55,30 @@ ul#menu li.destaque a :hover{
 #destaque{
     background-color: #c5e3fe;
     border-bottom: 1px solid black;
+    margin-top: 4.7rem;
+}
+
+#area-destaque{
+    width: 55%;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 100;
+    letter-spacing: -0.1rem;
+}
+#destaque button{
+    display: block;
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.fundo-destaque{
+    background: url(../img/fundo-topo.png) no-repeat right bottom;
+    background-size: 22rem;
 }
