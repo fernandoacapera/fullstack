@@ -13,10 +13,21 @@
       margin:  0;
     }
     .grid{
-      display: grid;
       /*grid-template-columns: 200px 200px 200px; */
       /*grid-template-columns: repeat(3,33%);*/
-      grid-template-columns: 1fr 1fr 1fr;
+      /*grid-template-columns: 1fr 1fr 1fr;*/
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 20px;
+
+    }
+    .item1{
+      /*line (linha) */
+      /*grid-column-start: 1; inicio*/
+      /*grid-column-end: 3; fim */
+      grid-row-start: 1;
+      grid-row-end: 3;
     }
     .grid > div{
       border: 3px solid yellowgreen;
