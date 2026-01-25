@@ -1,0 +1,30 @@
+#principal{
+    border: 1px solid red;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: orange;
+}
+#principal::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#conteudo{
+    width: 600px;
+    float: left;
+}
+#lateral{
+    width: 300px;
+    float: right;
+}
+#rodape{
+    width: 920px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+.marcacoes{
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    margin: 2px 8px;
+}

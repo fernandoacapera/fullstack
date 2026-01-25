@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Natal';
+    src: url(/fontes/fonts/LastChristmas_PERSONAL_USE_ONLY.otf);
+}
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+}
+
+
+h1{
+    font-family: Pinyon Script,'Natal',Arial, Helvetica, sans-serif;
+    color:red;
+}

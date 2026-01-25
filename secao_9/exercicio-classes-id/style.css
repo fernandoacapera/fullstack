@@ -1,0 +1,15 @@
+#topo{
+    background: yellow;
+}
+#rodape{
+    border: 2px solid grey;
+    height: 20px;
+}
+
+.curso {
+    background: lightgrey;
+}
+
+.curso-destaque{
+    background: orange;
+}
