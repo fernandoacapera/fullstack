@@ -13,3 +13,20 @@ class Carro{
 }
 
 const carro = new Carro()
+
+//Loja virtual
+class Produto{
+    constructor(){
+
+        // roupas
+        this.tamanho = "M",
+        this.cor = "Vermelho",
+        this.preco = "45,90",
+
+        //Eletronicos
+
+        this.altura = "50cm"
+        this.largura = "30cm"
+
+    }
+}
