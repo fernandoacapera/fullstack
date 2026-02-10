@@ -37,4 +37,4 @@ const colecao2 = document.getElementsByClassName('vermelho')
 const colecao3 = document.getElementsByName('nome')
 console.log(colecao3[1])
 */
-const obj = document.quer
+const obj = document.querySelector('li.primeiro')

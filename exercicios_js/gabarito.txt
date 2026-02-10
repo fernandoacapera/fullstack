@@ -1,0 +1,51 @@
+Gabarito (Tente fazer antes de olhar!)
+Se quiser conferir suas respostas ou travar em algum, abra aqui:
+
+<details> <summary><strong>Ver Soluções</strong></summary>
+
+Solução 1:
+
+JavaScript
+function calcularMediaAprovados(listaDeNotas) {
+    const aprovados = listaDeNotas.filter(nota => nota >= 5);
+    const soma = aprovados.reduce((acumulador, nota) => acumulador + nota, 0);
+    return soma / aprovados.length;
+}
+Solução 2:
+
+JavaScript
+const carro = {
+    marca: 'Toyota',
+    modelo: 'Corolla',
+    velocidadeAtual: 0,
+    acelerar: function(velocidade) {
+        this.velocidadeAtual += velocidade;
+        console.log(`O ${this.marca} ${this.modelo} está a ${this.velocidadeAtual} km/h`);
+    }
+};
+carro.acelerar(50);
+Solução 3:
+
+JavaScript
+function limparCPF(cpf) {
+    // O regex /\D/g seleciona tudo que NÃO é dígito
+    return cpf.replace(/\D/g, ''); 
+    // Ou usando replace manual: cpf.replaceAll('.', '').replace('-', '');
+}
+Solução 4:
+
+JavaScript
+const produto3 = produtos.find(p => p.id === 3);
+const precos = produtos.map(p => p.preco);
+Solução 5:
+
+JavaScript
+const titulo = document.getElementById('titulo');
+titulo.innerText = "Javascript é incrível!";
+
+// QuerySelector pega o primeiro elemento que achar com essa classe
+const divConteudo = document.querySelector('.conteudo');
+divConteudo.style.color = "blue";
+</details>
+
+Como você ainda não começou a Seção 23 (Eventos), não coloquei exercícios de clique ou interação de botão, mas esses do DOM já preparam o terreno para isso. Quer que eu aprofunde em algum desses tópicos?
