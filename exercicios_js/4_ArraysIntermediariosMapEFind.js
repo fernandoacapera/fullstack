@@ -11,6 +11,10 @@ const produtos = [
     { id: 3, nome: 'Monitor', preco: 900 }
 ];
 // 1. Encontre o Monitor
+console.log(produtos.find(item => item.id == 3))
 // 2. Crie um array [150, 50, 900]
+let precosProdutos = produtos.map(item => item.preco)
+
+console.log(precosProdutos)
 
 
