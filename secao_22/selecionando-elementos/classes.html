@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>Fernando</span>
+    <button onclick="executar()">Click</button>
+    <script>
+        function executar(){
+
+            const obj = document.querySelector('span')
+            const classes = obj.classList
+            //console.log(classes.contains('vermelho')) //verifica se tem essa classes dentro do obj
+
+            //classes.add("vermelho") //adiciona a classe
+            //classes.remove("vermelho") //remove a classes
+            //classes.toggle("vermelho") //altera entre classe (se eu clicar e tiver, ele tira. se eu clicar e nao tiver, ele adiciona)
+
+            //obj.className = "vermelho texto" //substitui a classe pela que eu coloquei
+
+            classes.forEach(item=>console.log(item))
+        }
+        //console.log(classes)
+    </script>
+</body>
+</html>

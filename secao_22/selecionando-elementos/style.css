@@ -11,7 +11,21 @@ li.primeiro{
     color:white;
     background-color: black;
 }
-*/
+
 #itens{
     background-color: orange;
+}
+    */
+
+.vermelho{
+    background-color: red;
+}
+.laranja{
+    background-color: orange;
+}
+.texto{
+    color: white;
+}
+body{
+    font-size: 35px;
 }
