@@ -1,0 +1,5 @@
+load = a pagina web terminou de carregar
+unlouad =  a pagina web está carregando
+error = o navegador encontra um error
+resize = a janela do navegador foi redimensionada
+scrool = usuario rolou a página para cima ou para baixo
