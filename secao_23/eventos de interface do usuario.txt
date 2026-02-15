@@ -3,3 +3,41 @@ unlouad =  a pagina web está carregando
 error = o navegador encontra um error
 resize = a janela do navegador foi redimensionada
 scrool = usuario rolou a página para cima ou para baixo
+
+-//-
+
+Eventos de teclado
+
+keydown: o usuario pressiona uma tecla(euqnautno a tecla é pressionada)
+keyup: usuario silta uma tecla
+keypress: Caracteres estão sendo inseridos
+
+-//-
+
+Eventos de mouse 
+
+click = pressona e solta o botão sobre o mesmo elemento
+dbclick = pressiona e solta o botão duas vezes sobre o mesmo elemento
+mousedown = pressiona o botão do mouse sobre um elemento
+mouseup = solta o botão do mouse sobre um elemento
+mousemove = move o mouse
+mouseover = move o mouse sobre um elemento
+mouseout = move o mouse para fora do elemento
+
+-//-
+
+Eventos de focus
+
+focus = o elemento ganha o foco
+blur = o elemento perde o foco
+
+-//-
+
+input = valor de qualquer elemento <input> mudou
+change = o valor em uma caixa de seleção ou botão de rádio mudou
+submit = usuario envia um formulário (usando botão ou tecla)
+reset = usuario clica em um botão reset (pouco usado atualmente)
+cut = usuario "recorta" o conteudo em um campo de formulario
+copy = usuario "copia" o conteudo de um campo de formulario
+paste = usuario "cola" o conteudo de um campo de formulario
+select = usuario "seleciona" um texto em um campo de formulário
