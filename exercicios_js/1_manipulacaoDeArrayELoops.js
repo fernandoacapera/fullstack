@@ -11,7 +11,10 @@ Código base para começar: */
 const notas = [7.5, 3.2, 9.0, 4.5, 6.0, 10.0, 2.5];
 
 function calcularMediaAprovados(listaDeNotas) {
-    // Seu código aqui
+    let aprovados = listaDeNotas.filter((nota => nota >= 5))
+    soma = aprovados.reduce((valorAnterior, valorAtual) => (valorAnterior + valorAtual), 0)
+    total = soma / aprovados.length;
+    return total
 }
 
 console.log(calcularMediaAprovados(notas)); 
